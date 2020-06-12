@@ -173,7 +173,7 @@ footer{
 .baner{
     width: 896px;
     height: 445px;
-    background-image: url(baner.png);
+    background-image: url(images/baner.png);
     background-size: cover;
 }
 .topic{
