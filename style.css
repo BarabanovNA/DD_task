@@ -1,3 +1,4 @@
+/* General */
 a {
     text-decoration: none;
     font-family: Arial;
@@ -6,6 +7,29 @@ a {
 
 main {
     display: flex;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #E5E5E5;
+    margin-top: 43px;
+    margin-left: 100px;
+    margin-right: 25px;
+}
+
+button:hover {
+    border: 1px solid #34ACA7;
+    cursor: pointer;
+}
+
+/* Navigation */
+.navSpan {
+    font-family: Verdana;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
 }
 
 .aside {
@@ -56,96 +80,15 @@ main {
     padding-bottom: 34px;
 }
 
-.footerInfo {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 10px;
-
-    padding-right: 5px;
-    width: 700px;
-    height: 92px;
-
-}
-
-.footerRef:hover {
-    opacity: 60%;
-}
-
-footer {
-    display: flex;
-    justify-content: space-between;
-    border-top: 1px solid #E5E5E5;
-    margin-top: 43px;
-    margin-left: 100px;
-    margin-right: 25px;
-}
-
-.icons {
-    padding-top: 36px;
-    height: 26px;
-    width: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.icon:hover {
-    opacity: 65%;
-}
-
-.footerRef {
-    font-family: Arial;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 12px;
-    letter-spacing: -0.02em;
-    color: #34ACA7;
-}
-
-.divide {
-    font-family: Arial;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 12px;
-    letter-spacing: -0.02em;
-    color: #E5E5E5;
-}
-
-.copyright {
-    font-family: Arial;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 12px;
-    letter-spacing: -0.02em;
-    color: #E5E5E5;
-}
-
 #latestTweet {
     padding-top: 30px;
 }
+
 
 .dashedLine {
     border: 1px dashed #E5E5E5;
     width: 1;
     width: 100%;
-}
-
-.tastemakerImg {
-    width: 73px;
-}
-
-.photoImg {
-    width: 30px;
-    height: 23.61px;
-}
-
-.aboutImg {
-    width: 24px;
-
 }
 
 .twitterButton {
@@ -169,10 +112,22 @@ footer {
     color: #34ACA7;
 }
 
-button:hover {
-    border: 1px solid #34ACA7;
-    cursor: pointer;
+/*main*/
+
+.tastemakerImg {
+    width: 73px;
 }
+
+.photoImg {
+    width: 30px;
+    height: 23.61px;
+}
+
+.aboutImg {
+    width: 24px;
+
+}
+
 
 .menu {
     width: 445px;
@@ -263,9 +218,6 @@ button:hover {
 }
 
 .tabSpan {
-
-
-
     font-family: Arial;
     font-style: normal;
     font-weight: normal;
@@ -276,14 +228,11 @@ button:hover {
 }
 
 .tabs p {
-
-
     font-family: Arial;
     font-style: italic;
     font-weight: normal;
     font-size: 10px;
     line-height: 19px;
-
     color: #34ACA7;
 }
 
@@ -294,11 +243,17 @@ button:hover {
     align-items: center;
     border-top: 1px solid #E5E5E5;
     border-bottom: 1px solid #E5E5E5;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .signUp img {
     width: 32px;
     height: 26px;
+}
+
+.signUp p {
+    padding-left: 10px;
 }
 
 .signUp input {
@@ -392,13 +347,6 @@ button:hover {
     text-decoration: underline;
 }
 
-.navSpan {
-    font-family: Verdana;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 12px;
-}
 
 
 .email::-webkit-input-placeholder {
@@ -436,4 +384,66 @@ button:hover {
     font-size: 10px;
     line-height: 10px;
     color: #E5E5E5;
+}
+
+/* footer*/
+
+.footerInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+
+    padding-right: 5px;
+    width: 700px;
+    height: 92px;
+
+}
+
+.footerRef:hover {
+    opacity: 60%;
+}
+
+.icons {
+    padding-top: 36px;
+    height: 26px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon:hover {
+    opacity: 65%;
+}
+
+.footerRef {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: -0.02em;
+    color: #34ACA7;
+}
+
+.divide {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: -0.02em;
+    color: #E5E5E5;
+}
+
+.copyright {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: -0.02em;
+    color: #E5E5E5;
+    padding-top: 5px;
 }
