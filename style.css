@@ -1,4 +1,10 @@
 /* General */
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 a {
     text-decoration: none;
     font-family: Arial;
@@ -13,9 +19,10 @@ footer {
     display: flex;
     justify-content: space-between;
     border-top: 1px solid #E5E5E5;
-    margin-top: 43px;
-    margin-left: 100px;
-    margin-right: 25px;
+    margin-top: 3%;
+    margin-left:100px;
+    width: 1125px;
+    
 }
 
 button:hover {
